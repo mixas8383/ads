@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- $Id$ -->
+<extension type="plugin" version="2.5" method="upgrade" group="xmap" client="site">
+    <name>Xmap - Adsmanager Plugin</name>
+    <author>Thomas Papin</author>
+    <creationDate>January 2015</creationDate>
+    <copyright>GNU GPL</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>support@juloa.com</authorEmail>
+    <authorUrl>www.Juloa.com</authorUrl>
+    <version>3.0.3</version>
+    <description>Xmap Plugin for Adsmanager component</description>
+    <files>
+        <filename plugin="com_adsmanager">com_adsmanager.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <param name="include_entries" type="list" default="1" label="Show Ads" description="Should we include ads into the sitemap?">
+		            <option value="0">Never</option>
+		            <option value="1">Always</option>
+		            <option value="2">In XML Sitemap Only</option>
+		            <option value="3">In Site Sitemap Only</option>
+		        </param>
+                <field name="max_entries" type="text" default="" label="Max Entries" description="Max number of entries per Category  to include on sitemap (Leave empty for no limit)" />
+           </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbinstall version="1.05" type="plugin" group="user">
+	<name>UserGroup-Tab</name>
+	<author>Thomas PAPIN</author>
+	<creationDate>January 2015</creationDate>
+	<copyright>(C) 2006 Thomas Papin</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@juloa.com</authorEmail>
+	<authorUrl>http://www.Juloa.com</authorUrl>
+	<version>1.0.1</version>
+	<description>Displays User Group</description>
+	<files>
+		<filename plugin="usergroup.plugin">usergroup.plugin.php</filename>
+		<filename plugin="usergroup.plugin">index.html</filename>
+	</files>
+	<params>
+	</params>
+    <tabs>
+		<tab name="UserGroup" description="" class="UserGroupTab" fields="0" position="cb_right" displaytype="tab">
+			<fields>
+			</fields>
+		</tab>
+	</tabs>
+</cbinstall>

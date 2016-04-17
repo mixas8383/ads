@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5" method="upgrade" client="site">
+	<name>mod_adsmanager_menu</name>
+	<author>Thomas Papin</author>
+	<creationDate>January 2015</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@juloa.com</authorEmail>
+	<authorUrl>www.Juloa.com</authorUrl>
+	<version>3.0.3</version>
+	<description>Displays the AdsManager Menu</description>
+	<files>
+		<filename module="mod_adsmanager_menu">mod_adsmanager_menu.php</filename>
+		<filename>mod_adsmanager_menu.xml</filename>
+		<filename>index.html</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/default.php</filename>
+	</files>
+	<params>
+		<param name="displaynumads" type="radio" default="1" label="Display Num of Ads" description="Display the number of ads for each categories">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+		</param>
+		<param name="displayhome" type="radio" default="1"  label="Display Home Link" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displaywritead" type="radio" default="1"  label="Display WriteAd Link" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displayprofile" type="radio" default="1"  label="Display Profile Link" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displaymyads" type="radio" default="1"  label="Display My Ads Link" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displayrules" type="radio" default="1"  label="Display Rules Link" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displayallads" type="radio" default="1"  label="Display All Ads Link" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displaycategories" type="radio" default="1"  label="Display Categories" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+        <param name="displayfavorites" type="radio" default="1"  label="Display Favorites" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displayseparators" type="radio" default="1"  label="Display Separators" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="rootid" type="text" default="" size="4" label="Root Category" description="Limit Ads to this root category" />
+	</params>
+	<languages folder="language">
+        <language tag="en-GB">en-GB.mod_adsmanager_menu.ini</language>
+        <language tag="en-GB">en-GB.mod_adsmanager_menu.sys.ini</language>
+        <language tag="fr-FR">fr-FR.mod_adsmanager_menu.ini</language>
+        <language tag="fr-FR">fr-FR.mod_adsmanager_menu.sys.ini</language>
+    </languages>
+</install>
+

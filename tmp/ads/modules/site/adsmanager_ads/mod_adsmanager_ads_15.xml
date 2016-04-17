@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5" method="upgrade" client="site">
+	<name>mod_adsmanager_ads</name>
+	<author>Thomas Papin</author>
+	<creationDate>January 2015</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@juloa.com</authorEmail>
+	<authorUrl>www.Juloa.com</authorUrl>
+	<version>3.0.3</version>
+	<description>Displays the latest / random / popular ads of AdsManager</description>
+	<files>
+		<filename module="mod_adsmanager_ads">mod_adsmanager_ads.php</filename>
+		<filename>mod_adsmanager_ads.xml</filename>
+		<filename>index.html</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/vertical.php</filename>
+        <filename>tmpl/horizontal.php</filename>
+	</files>
+	<languages folder="language">
+        <language tag="en-GB">en-GB.mod_adsmanager_ads.ini</language>
+        <language tag="en-GB">en-GB.mod_adsmanager_ads.sys.ini</language>
+        <language tag="fr-FR">fr-FR.mod_adsmanager_ads.ini</language>
+        <language tag="fr-FR">fr-FR.mod_adsmanager_ads.sys.ini</language>
+    </languages>
+	<params>
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="random" type="radio" default="0" label="Random Ads" description="Display Latest / Random / Popular Ads">
+			<option value="0">Latest</option>
+			<option value="1">Random</option>
+			<option value="2">Popular</option>
+		</param>
+		<param name="nb_ads" type="text" default="3" size="2" label="Number of Ads" description="Number of Ads to be displayed" />
+		<param name="nb_ads_by_row" type="text" default="3" size="2" label="Number of Ads by Row" description="Number of Ads by row to be displayed, you must be in horizontal mode." />
+		<param name="align" type="radio" default="hor" label="Module Style" description="The module style">
+			<option value="ver">Vertical</option>
+			<option value="hor">Horizontal</option>
+		</param>
+		<param name="image" type="radio" default="1" label="Display Picture" description="Display ads picture">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="imagesize" type="radio" default="small" label="Picture Size" description="Picture Size">
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
+        </param>
+		<param name="displaycategory" type="radio" default="1" label="Display Category" description="Display Ad's Category">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="displaydate" type="radio" default="1" label="Display Date" description="Display Ad's Date">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="catselect" type="text" default="" size="4" label="catselect" description="display ads from a specific category (catid or -1 = current cat or empty = all)" />
+		<param name="rootid" type="text" default="" size="4" label="Root Category" description="Limit Ads to this root category" />
+		<param name="field1" type="text" default="" label="Field 1" description="Display a ads field" />
+		<param name="field2" type="text" default="" label="Field 2" description="Display a ads field" />
+		<param name="field3" type="text" default="" label="Field 3" description="Display a ads field" />
+		<param name="field4" type="text" default="" label="Field 4" description="Display a ads field" />
+		<param name="field5" type="text" default="" label="Field 5" description="Display a ads field" />
+	</params>
+</install>

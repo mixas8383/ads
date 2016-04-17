@@ -1,0 +1,363 @@
+.form-horizontal .inline-control-label {
+    width: 70px !important;
+}
+
+.form-horizontal .inline-controls {
+    margin-left: 90px !important;
+}
+
+#ad-information .row-fluid [class*="span"],
+#contact-form .row-fluid [class*="span"],
+#profile-password .row-fluid [class*="span"],
+#profile-contact .row-fluid [class*="span"] {
+    margin-left: 0 !important;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+.adsmanager-cat {
+    font-size: 10px;
+}
+
+.ad-image {
+    margin-bottom: 12px;
+}
+
+.adsmanager-grid {
+    width: 32%;
+    margin-left: 5px;
+    float: left;
+    border: 1px solid #E3E3E3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.adsmanager-grid h4 {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #E3E3E3;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.adsmanager-grid div {
+    padding: 5px;
+}
+
+.adsmanager-grid img {
+    max-height: 120px;
+}
+
+.adsmanager-grid .iconflag {
+    display: block;
+    position: absolute;
+}
+
+#advsearchmoduleform input {
+    width: 150px;
+}
+
+#advsearchmoduleform input[type='radio'],
+#advsearchmoduleform input[type='checkbox'] {
+    width: inherit;
+}
+
+#advsearchmoduleform select {
+    width: 165px;
+}
+
+#advsearchmoduleform .control-group {
+    margin-bottom: 0px;
+}
+
+#adsmanager_global_filter input {
+    width: 150px;
+}
+
+#adsmanager_global_filter input[type='radio'],
+#adsmanager_global_filter input[type='checkbox'] {
+    width: inherit;
+}
+
+#adsmanager_global_filter select {
+    width: 165px;
+}
+
+#adsmanager_global_filter .control-group {
+    margin-bottom: 0px;
+}
+
+.map-popup .img-map {
+    max-width: 100% !important;
+}
+
+.map-popup .span5 {
+    padding-left: 5px;
+}
+
+.map-popup .map-price {
+    padding-top: 5px;
+    float: left;
+    font-weight: bold;
+}
+
+.adsmanager-details {
+    padding-left: 0 !important;
+}
+
+.adsmanager-details .adsmanager-favorite {
+    margin-bottom: 10px;
+}
+
+.adsmanager-details .adsmanager-infos {
+    border-right: 1px solid #DDDDDD;
+    padding-right: 10px;
+}
+
+.adsmanager-details .adsmanager-images img {
+    box-shadow: 0 2px 4px #808080;
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 0 5px;
+    padding: 5px;
+    border: 1px solid #B0B0B0;
+}
+
+.adsmanager-details .adsmanager-images a {
+    display: block;
+    margin-top: 10px;
+}
+
+.adsmanager-details .adsmanager-images {
+    padding: 5px;
+}
+
+#uploader_filelist li { 
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+	margin-top: -51px;
+	margin-left: 150px;
+}
+#uploader_filelist li .plupload_file_status {
+	text-align: center;
+	width: 100%;
+	margin-top: 25px;
+}
+.imagesupload_loading {
+	background: url(../images/loading.gif) no-repeat;
+	width:16px;
+	height:16px;	
+}
+
+#adshome h2 {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+#adshome h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+#adshome h3 {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/**
+ * Module GMAP
+ **/
+.gmappopup img {
+    width: 109px;
+	height: 74px;
+	margin-top: 6px;
+	margin-left: 1px;
+}
+.gmappopup .ruban_annonce {
+    float:right;
+}
+ 
+ .gmappopup .localisation {
+	color: #49A828;
+	font-weight: bold;
+ }
+ 
+ .gmappopup .mainpopup .imagediv {
+	float: left;
+	width: 120px;
+	height: 100%;
+	min-height: 90px;
+	text-align: center;
+ }
+ 
+ .gmappopup .mainpopup .textdiv {
+	float: left;
+	width: 200px;
+ }
+ 
+ .gmappopup h3 {
+	margin: 5px 0;
+ }
+ 
+ .gmappopup h3 a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+ }
+ 
+ .gmappopup h3 a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 14px;
+ }
+ 
+ .gmappopup p.description {
+	text-align: justify;
+	color: #757575;
+	font-style: italic;
+	font-size: 12px;
+    max-width: 300px;
+ }
+ 
+ .gmappopup .linkpopup {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    vertical-align: middle;
+	background-color: #363636;
+    background-image: linear-gradient(to bottom, #444444, #222222);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.gmappopup .linkpopup:hover {
+	background-color: #222222;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.gmappopup .linkpopup:active {
+	background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+
+ul.pagination-list {
+    list-style-type: none;
+}
+
+ul.pagination-list li {
+    float: left;
+    width: 20px;
+}
+
+.adsmanager_ver_list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.floatleft {
+	float:left;
+	padding-right:5px;	
+}
+
+.feed {
+    float: right;
+}
+.imgheading {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input.error {
+	border-color: #B94A48;
+}
+.error {
+	color: #B94A48;	
+}
+#contactplus .contact-grid .span4 {
+	width: 32%;
+    margin-left: 5px;
+    float: left;
+    border: 1px solid #E3E3E3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    margin-bottom: 10px;
+}
+
+#advancedsearch {
+	display:none;	
+}
+
+.list_highlight {
+    background-color:#AAAAFF;
+}
+
+/* Uncomment this bloc to custom the featured ads in the list */
+/*.list_featured {
+    
+}*/
+
+/* Uncomment this bloc to custom the top ads in the list */
+/*.list_top {
+    
+}*/
+
+.grid_highlight {
+    background-color:#AAAAFF;
+}
+
+/* Uncomment this bloc to custom the featured ads in the list */
+/*.grid_featured {
+    
+}*/
+
+/* Uncomment this bloc to custom the top ads in the list */
+/*.grid_top {
+    
+}*/
+
+@media (max-width: 480px) {
+    .adsmanager-grid {
+        width: 100%;
+        height: 255px;
+    }
+}
