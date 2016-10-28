@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="adsmanagercontent" method="upgrade">
+	<name>AdsManagerContent - ReCaptcha</name>
+	<version>2.5.0</version>
+	<creationDate>December 2011</creationDate>
+	<author>Juloa</author>
+    <creationDate>January 2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>ReCaptcha for Adsmanager (Adaptation of Joomla Plugin)</description>
+	<files>
+		<filename
+			plugin="recaptcha">recaptcha.php</filename>
+	</files>
+	<administration>
+	    <languages folder="language">
+       	 	<language tag="en-GB">en-GB.plg_adsmanagercontent_recaptcha.ini</language>
+        	<language tag="fr-FR">fr-FR.plg_adsmanagercontent_recaptcha.ini</language>
+        	<language tag="en-GB">en-GB.plg_adsmanagercontent_recaptcha.sys.ini</language>
+        	<language tag="fr-FR">fr-FR.plg_adsmanagercontent_recaptcha.sys.ini</language>
+    	</languages>
+    </administration>
+	<params>
+        <param
+			name="public_key"
+			type="text"
+			default=""
+			label="Public Key"
+			description=""
+			required="true"
+			filter="string"
+			size="50" />
+
+		<param
+			name="private_key"
+			type="text"
+			default=""
+			label="Private Key"
+			description=""
+			required="true"
+			filter="string"
+			size="50" />
+
+		<param
+			name="theme"
+			type="list"
+			default="clean"
+			label="Theme Label"
+			description=""
+			required="true"
+			filter="">
+			<option
+				value="clean">Clean</option>
+			<option
+				value="white">White</option>
+			<option
+				value="blackglass">BlackGlass</option>
+			<option
+				value="red">Red</option>
+		</param>
+        <param
+            name="edit_form"
+            type="checkbox"
+            label="PLG_RECAPTCHA_DISPLAY_EDIT_FORM"
+            description="PLG_RECAPTCHA_DISPLAY_EDIT_FORM_DESC"
+            value="1"
+        />
+        <param
+            name="message_form"
+            type="checkbox"
+            label="PLG_RECAPTCHA_DISPLAY_MESSAGE_FORM"
+            description="PLG_RECAPTCHA_DISPLAY_MESSAGE_DESC"
+            value="1"
+        />
+        <param
+            name="profile_form"
+            type="checkbox"
+            label="PLG_RECAPTCHA_DISPLAY_PROFILE_FORM"
+            description="PLG_RECAPTCHA_DISPLAY_PROFILE_DESC"
+            value="1"
+        />
+	</params>
+</install>
